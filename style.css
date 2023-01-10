@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.folat::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.fix-widht{
+     width: 1000px;
+     height: auto;
+     margin: auto;
+}
+/* .full-website{
+    width: 1250px;
+    height: auto;
+    margin: auto;
+} */
+ul{
+    padding: 0;
+    margin: 0;
+}
+/* css must */
+.header-menu{
+    background-color: #22c3a3;
+    color: #fff;
+    padding: 10px 20px;
+}
+.header-left{
+    float: left;
+    width: 30%;
+    
+    text-transform: ;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    list-style: none;
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    transition: .8s;
+}
+.header-right ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: px;
+    color: #fff;
+    padding: 10px 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.header-right ul li a:hover{
+    color: rgb(208, 208, 151);
+}
+.header-right ul li:hover{
+    background-color: rgb(83, 118, 106);
+}
+/* banner section */
+.banner{
+    background-image: url(header-bg01.jpg);
+    padding: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100px;
+    color: #fff;
+}
+.banner-content{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.banner-content h1{
+    text-align: center;
+    padding: px;
+    font-size: 40px;
+}
+.banner-content p{
+    text-align: center;
+    padding: 10px;
+}
+.banner-content button{
+    text-align: center;
+    display: inline-block;
+    padding:10px 15px;
+    margin-top: 10px;
+    background-color: #22c3a3;
+    border: 1px solid #fff;
+    color: #fff;
+
+}
+/* serbic section */
+.serbic{
+    
+    padding-top: 120px;
+}
+
+.surb{
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.serbic .p{
+    text-align: center;
+}
+.serbic h2{
+    padding: 20px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.surb .div1{
+    width: 250px;
+    height: auto;
+    text-align: center;
+    
+    float: left;
+    text-transform: capitalize;
+}
+.surb .div1 i{
+    font-size: 40px;
+    color: #0dbf9b;
+    padding: 15px 0px;
+}
+.surb .div1 h1{
+    padding: 10px 0px;
+    color: #726f6f;
+    font-size: 24px;
+}
+.serbic .div1 p{
+    padding: 10px 0px;
+    color: #c5c5c5;
+}
+.surb .div2{
+    float: left;
+  
+}
+.surb .div3{
+    float: left;
+    
+}
+.surb .div4{
+    float: left;
+    
+}
+.serbices{
+    height: 575px;
+    border-bottom: 2px solid #0dbf9b ;
+}
+.about{
+    text-align: center;
+    padding: 90px 0px;
+    width: 800px;
+    margin: auto;
+}
+
+.about h1{
+    text-transform: capitalize;
+    
+}
+.about p{
+    color: #c5c5c5;
+    padding: 25px 0px;
+}
+.img{
+    float: left;
+    width: 40%;
+}
+img{
+    float: left;
+    width: 500px;
+}
+.contact2{
+    float: right;
+    width: 55%; 
+    color:#c7c7c7;
+}
+.contact2 h2{
+    padding: 10px 0px;
+}
+.section{
+    background-color: #f6f6f6;
+    margin-top: 40px;
+    color: #c6c6c6;
+    height: 400px;
+    
+}
+.main-section{
+    width: 750px;
+    margin: auto;
+}
+.section1{
+    text-align: center;
+    padding: 50px 0px;
+    text-transform: capitalize;
+}
+.section1 h1{
+    padding: 10px 0px;
+    color: #797575;
+}
+.section2{
+    width: 150px;
+    text-align: center;
+    padding: 20px 0px;
+    display: inline-block;
+    transform: translate(0px, 0px);
+    color: #c6c6c6;
+}
+.section2 i{
+    padding: 20px;
+    color: #0dbf9b;
+}
+.section2 p{
+   /* font-size: 0px; */
+   
+}
+.section3{
+    display: inline-block;
+    transform: translate(176px, -7px);
+}
+.section4{
+    transform: translate(305px, 0px);
+}
+.fixd-width{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+/* footer section */
+.footer-menu{
+      background-color: #0dbf9b;
+}
+.footer-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.footer-menu ul li{ 
+    display: inline-block;
+}
+.footer-menu ul li a{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    line-height: 146%;
+}
+.footer-bottom{
+    background-color: #636e72;
+    text-align: center;
+    padding: 15px 10px;
+    color: #fff;
+
+}
+
+
