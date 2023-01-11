@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
 }
-.folat::after{
+.float::after{
     content: "";
     clear: both;
     display: block;
 }
 .fix-widht{
-     width: 1000px;
+     width: 90%;
      height: auto;
      margin: auto;
 }
@@ -34,7 +34,7 @@ ul{
     text-transform: ;
 }
 .header-right{
-    float: right;
+    float: left;
     width: 70%;
 }
 .header-right ul{
@@ -72,7 +72,7 @@ ul{
     color: #fff;
 }
 .banner-content{
-    width: 500px;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
@@ -103,7 +103,7 @@ ul{
 
 .surb{
     margin-top: 70px;
-    margin-left: 90px;
+    
 }
 
 .serbic .p{
@@ -115,10 +115,9 @@ ul{
     text-align: center;
 }
 .surb .div1{
-    width: 250px;
+    width: 25%;
     height: auto;
-    text-align: center;
-    
+    text-align:center;
     float: left;
     text-transform: capitalize;
 }
@@ -146,16 +145,24 @@ ul{
 }
 .surb .div4{
     float: left;
-    
+    margin-right: 0px;
 }
 .serbices{
-    height: 575px;
-    border-bottom: 2px solid #0dbf9b ;
+   
 }
+/* .serbic ::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 500px;
+    height: 2px;
+    background-color:  #0dbf9b ;
+} */
 .about{
     text-align: center;
     padding: 90px 0px;
-    width: 800px;
+    width: 100%;
     margin: auto;
 }
 
@@ -169,18 +176,21 @@ ul{
 }
 .img{
     float: left;
-    width: 40%;
+    width: 45%;
+    margin-top: 22px;
 }
 img{
     float: left;
-    width: 500px;
+    max-width: 100%;
 }
-.contact2{
-    float: right;
-    width: 55%; 
+.main-about-content{
+    float: left;
+    width: 45%; 
     color:#c7c7c7;
+    margin-left: 32px;
+    margin-bottom: 20px;
 }
-.contact2 h2{
+.about-content-right h2{
     padding: 10px 0px;
 }
 .section{
@@ -191,24 +201,25 @@ img{
     
 }
 .main-section{
-    width: 750px;
+    width: 100%;
     margin: auto;
 }
-.section1{
+.header-section{
     text-align: center;
     padding: 50px 0px;
     text-transform: capitalize;
 }
-.section1 h1{
+.header-section h1{
     padding: 10px 0px;
     color: #797575;
 }
 .section2{
-    width: 150px;
+    float: left;
+    width: 30%;
     text-align: center;
     padding: 20px 0px;
-    display: inline-block;
-    transform: translate(0px, 0px);
+   
+   
     color: #c6c6c6;
 }
 .section2 i{
@@ -220,11 +231,11 @@ img{
    
 }
 .section3{
-    display: inline-block;
-    transform: translate(176px, -7px);
+   
+   
 }
 .section4{
-    transform: translate(305px, 0px);
+    
 }
 .fixd-width{
     width: 1200px;
@@ -256,5 +267,7 @@ img{
     color: #fff;
 
 }
+
+
 
 
